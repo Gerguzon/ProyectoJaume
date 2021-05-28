@@ -1,0 +1,33 @@
+.mensaje {
+    block-size: 485px;
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje div {
+    max-inline-size: 778px;
+    text-align: center;
+}
+
+.mensaje div span{
+    font: var(--headline6);
+}
+
+.mensaje div p{
+    font: var(--headline5);
+}
+
+.mensaje div img {
+    inline-size: 80.52px;
+    block-size: 80.52px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .mensaje {
+        block-size: 600px;
+    }
+}

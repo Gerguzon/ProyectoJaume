@@ -1,0 +1,9 @@
+.wrapper {
+ max-inline-size: 1158px;
+ padding-inline-end: 16px;
+ padding-inline-start: 16px;
+ margin: auto;
+}
+
+/* es un contenedor para que todos los elementos dentro no se salgan de ese ancho maximo
+y asi usar una regla*/

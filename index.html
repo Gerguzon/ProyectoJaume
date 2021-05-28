@@ -4,9 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="assets/logo.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/main.css">
+    <title>Portafolio de Gerguzon </title>
 </head>
 <body>
-    
-</body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="assets/logo.svg" width="70" height="20"  alt="Logotipo">
+                <nav class="menu">
+                    <ul>
+                        <li><a class="is-active"  href="#main">HOLA</a></li>
+                        <li><a class="is-active" href="#project">PROYECTOS</a></li>
+                        <li><a class="is-active" href="#contacto">HABLEMOS</a></li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section class="hero" id="main">
+            <div class="hero-image">
+                <img src="assets/user.png" width="338" height="330" alt="Jaume">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Jaume</span>
+                </h1>
+                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="social">
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-phone.svg" alt="LLamar"></a>
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-important_mail.svg" alt="LLamar"></a>
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-instagram.svg" alt="LLamar"></a>
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-twitter_squared.svg" alt="LLamar"></a>    
+                </div>
+                <a href="#" class="button">Descargar Curriculum</a>
+            </div>
+            
+        </section>
+
+        <section class="mensaje">
+            <div>
+                <span>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</span>
+                <p>Aquí hay algunos que me gustaría compartir.</p>
+                <img src="assets/arrow-down.svg" alt="Flecha">
+            </div>
+        </section>
+
+        
+        
+        
+        <section class="project" id="project">
+            <div  class="project-image is-right">
+                <img src="assets/leonidaspage.png" alt="Leonidas Pagina">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="www.leonidasesteban.com">leonidasesteban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.</p>
+                    <a target="_blank" href="#" class="button">Ver Código</a>
+                    <a target="_blank" href="#" class="button is-secondary">Ver Proyecto</a>
+            </div>
+        </section>
+
+        <article class="opiniones">
+            <img src="assets/leonidas.png" alt="Perfil de Leonidas Esteban">
+            <h3>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</h3>
+            <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </article>
+        
+        <section class="project">
+            <div  class="project-image">
+                <img src="assets/marvol.png" alt="Marvol Pagina">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="#">MARVOL</a>
+                <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                    <a target="_blank" href="#" class="button">Ver Código</a>
+                    <a target="_blank" href="#" class="button is-secondary">Ver Proyecto</a>
+                </div>
+            </section>
+            
+            <article class="opiniones">
+                <img src="assets/Jason.png" alt="Perfil de Jason Lopez">
+                <h3>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</h3>
+                <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+            </article>
+            
+        <section class="project">
+            <div  class="project-image is-right">
+                <img src="assets/netnet.png" alt="NetNet Pagina">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="#">NETNET</a>
+                <p>Películas y series ilimitadas y mucho más.
+                    Disfruta donde quieras. Cancela cuando quieras.</p>
+                    <a target="_blank" href="#" class="button">Ver Código</a>
+                    <a target="_blank" href="#" class="button is-secondary">Ver Proyecto</a>
+                </div>
+            </section>
+            
+            <article class="opiniones">
+                <img src="assets/Marco.png" alt="Perfil de Marco Cortez">
+                <h3>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</h3>
+                <p>MARCO CORTEZ / NETNET</p>
+            </article>
+
+                    <form  class="form" id="contacto" action="" method="GET">
+                        <h2 class="title">HABLEMOS</h2>
+                        <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+                        <label  for="form-name">Nombre Completo 
+                            <input required name="name" id="form-name" type="text" placeholder="Juan"  height="50">
+                        </label>
+                        <label  for="form-correo">Correo
+                            <input required  name="correo" id="form-correo" type="email" placeholder="Correo"  height="50">
+                        </label>
+                        <label  for="form-message">Mensaje
+                            <textarea required placeholder="Mensaje" name="message" id="form-message" cols="30" rows="17" height="50"></textarea>
+                        </label>
+                        <button class="button" type="submit">Enviar Mensaje</button>
+                    </form>
+
+            
+            
+            <footer>
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" width="70" height="20"  alt="Logotipo">
+                </div>
+                
+                <div class="social">
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-phone.svg" alt="LLamar"></a>
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-important_mail.svg" alt="LLamar"></a>
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-instagram.svg" alt="LLamar"></a>
+                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-twitter_squared.svg" alt="LLamar"></a>    
+                </div>
+                <span class="footer-copyright">
+                    <p>Hecho con el 🤍 de Jaume.</p>
+                    <p>Copyright 2021 - Todos los derechos reservados.</p>
+                </span>
+            </footer>
+        </div>
+        
+    </body>
 </html>
