@@ -1,157 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/logo.svg">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="css/main.css">
-    <title>Portafolio de Gerguzon </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Landing page de médicos</title>
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="header-content">
-                <img src="assets/logo.svg" width="70" height="20"  alt="Logotipo">
-                <nav class="menu">
-                    <ul>
-                        <li><a class="is-active"  href="#main">HOLA</a></li>
-                        <li><a class="is-active" href="#project">PROYECTOS</a></li>
-                        <li><a class="is-active" href="#contacto">HABLEMOS</a></li>
-                    </ul>
-                </nav>
-                <button class="button">Curriculum</button>
-            </div>
-        </div>
-    </header>
-
+  
+  <header>
     <div class="wrapper">
-        <section class="hero" id="main">
-            <div class="hero-image">
-                <img src="assets/user.png" width="338" height="330" alt="Jaume">
-            </div>
-            <div class="hero-description">
-                <h1>
-                    <span>¡Hola a todos!</span>
-                    <span>Soy Jaume</span>
-                </h1>
-                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-                <div class="social">
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-phone.svg" alt="LLamar"></a>
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-important_mail.svg" alt="LLamar"></a>
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-instagram.svg" alt="LLamar"></a>
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-twitter_squared.svg" alt="LLamar"></a>    
-                </div>
-                <a href="#" class="button">Descargar Curriculum</a>
-            </div>
-            
-        </section>
+      <nav>
+        <div class="logo-nav">
+          <a href="">LOGO</a>
+        </div>
+      
+        <div class="options-nav">
+          <a href="">Especialistas</a>
+          <a href="">Estudios</a>
+          <a href="">Preguntas frecuentes</a>
+          <button>Iniciar sesión</button>
+        </div>
 
-        <section class="mensaje">
-            <div>
-                <span>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</span>
-                <p>Aquí hay algunos que me gustaría compartir.</p>
-                <img src="assets/arrow-down.svg" alt="Flecha">
-            </div>
-        </section>
+      </nav>
+    </div>
+  </header>
 
+  <main class="wrapper">
+
+      <section class="section-1">
+
+        <div class="info">
+          <div class="description">
+            <h1>Encuentra tu especialista y <br> pide cita </h1>
+            <p>180 000 profesionales están aquí para ayudarte.</p>
+           </div>
+
+          <button>Ver especialistas</button>
+        </div>
+
+        <picture>
+          <span class="icon"></span>
+          <span class="icon"></span>
+          <span class="icon"></span>
+          <img src="./images/Img-doctors-1.png" alt="Foto de un doctor">
+          <span class="gradients"></span>
+          <span class="gradients-2"></span>
+
+        </picture>
         
         
+
+
+      </section>
+
+      <section class="section-2">
         
-        <section class="project" id="project">
-            <div  class="project-image is-right">
-                <img src="assets/leonidaspage.png" alt="Leonidas Pagina">
-            </div>
-            <div class="project-description">
-                <a class="title" target="_blank" href="www.leonidasesteban.com">leonidasesteban.com</a>
-                <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
-                    tus habilidades como desarrollador Front-End.</p>
-                    <a target="_blank" href="#" class="button">Ver Código</a>
-                    <a target="_blank" href="#" class="button is-secondary">Ver Proyecto</a>
-            </div>
-        </section>
+        <picture>
+          <img src="./images/img-doctors-2.png" alt="Foto de un doctor">
+          <span class="gradients"></span>
 
-        <article class="opiniones">
-            <img src="assets/leonidas.png" alt="Perfil de Leonidas Esteban">
-            <h3>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</h3>
-            <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
-        </article>
-        
-        <section class="project">
-            <div  class="project-image">
-                <img src="assets/marvol.png" alt="Marvol Pagina">
-            </div>
-            <div class="project-description">
-                <a class="title" target="_blank" href="#">MARVOL</a>
-                <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
-                    <a target="_blank" href="#" class="button">Ver Código</a>
-                    <a target="_blank" href="#" class="button is-secondary">Ver Proyecto</a>
-                </div>
-            </section>
-            
-            <article class="opiniones">
-                <img src="assets/Jason.png" alt="Perfil de Jason Lopez">
-                <h3>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</h3>
-                <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
-            </article>
-            
-        <section class="project">
-            <div  class="project-image is-right">
-                <img src="assets/netnet.png" alt="NetNet Pagina">
-            </div>
-            <div class="project-description">
-                <a class="title" target="_blank" href="#">NETNET</a>
-                <p>Películas y series ilimitadas y mucho más.
-                    Disfruta donde quieras. Cancela cuando quieras.</p>
-                    <a target="_blank" href="#" class="button">Ver Código</a>
-                    <a target="_blank" href="#" class="button is-secondary">Ver Proyecto</a>
-                </div>
-            </section>
-            
-            <article class="opiniones">
-                <img src="assets/Marco.png" alt="Perfil de Marco Cortez">
-                <h3>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</h3>
-                <p>MARCO CORTEZ / NETNET</p>
-            </article>
+        </picture>
 
-                    <form  class="form" id="contacto" action="" method="GET">
-                        <h2 class="title">HABLEMOS</h2>
-                        <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
-                        <label  for="form-name">Nombre Completo 
-                            <input required name="name" id="form-name" type="text" placeholder="Juan"  height="50">
-                        </label>
-                        <label  for="form-correo">Correo
-                            <input required  name="correo" id="form-correo" type="email" placeholder="Correo"  height="50">
-                        </label>
-                        <label  for="form-message">Mensaje
-                            <textarea required placeholder="Mensaje" name="message" id="form-message" cols="30" rows="17" height="50"></textarea>
-                        </label>
-                        <button class="button" type="submit">Enviar Mensaje</button>
-                    </form>
+        <div class="info">
+          <div class="description">
+            <h2>Encuentra un centro de diagnóstico y agenda tu estudio </h2>
+            <p>Compara los precios del estudio en diferentes centros de diagnóstico</p>
+          </div>
 
-            
-            
-            <footer>
-                <div class="footer-logo">
-                    <img src="assets/logo.svg" width="70" height="20"  alt="Logotipo">
-                </div>
-                
-                <div class="social">
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-phone.svg" alt="LLamar"></a>
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-important_mail.svg" alt="LLamar"></a>
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-instagram.svg" alt="LLamar"></a>
-                    <a class="button-icon" href="tel:314162938"><img src="assets/icon-twitter_squared.svg" alt="LLamar"></a>    
-                </div>
-                <span class="footer-copyright">
-                    <p>Hecho con el 🤍 de Jaume.</p>
-                    <p>Copyright 2021 - Todos los derechos reservados.</p>
-                </span>
-            </footer>
+          <ul>
+            <li><span class="item-1"></span> Protegemos tu salud</li>
+            <li><span class="item-2"></span> Pruebas de Covid-19 </li>
+            <li><span class="item-3"></span> Un centro cercas de ti</li>
+          </ul>
+
+
+        </div>
+      </section>
+
+      <section class="section-3">
+
+        <div>
+          <h2>Información necesaria sobre el estudio en un solo lugar </h2>
+          <ul>
+            <li>Procedimiento del estudio</li>
+            <li>Preguntas frecuentes</li>
+            <li>Recomendaciones sobre cómo prepararse para un estudio</li>
+          </ul>
+        </div>
+
+        <div>
+          <img src="./images/Img-doctors-3.png" alt="Foto de un doctor">
         </div>
         
-    </body>
+        
+
+
+      </section>
+
+      <section>
+        <h2>Opiniones más recientes</h2>
+
+        <div>
+          <p>Excelente trato y atención. Además de explicar todo de forma detallada. Muy profesional en todos los sentidos</p>
+
+          <p>Marilyn Chacon león</p>
+          <p>Paciente</p>
+        </div>
+
+      </section>
+
+      <section>
+
+        <div>
+          <p>¿Tuviste COVID y aún presentas síntomas?</p>
+
+          <p>Revisa el estado de tus pulmones con una tomografía de tórax.</p>
+          <button>Agenda una TAC de tórax</button>
+        </div>
+
+      </section>
+
+      
+     
+  </main>
+    
+  <footer class="wrapper">
+      <div>
+        <a href="">LOGO</a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </div>
+
+      <div>
+        <a href="">Menu</a>
+        <a href="">Cita</a>
+        <a href="">Doctor</a>
+        <a href="">Covid-19</a>
+        <a href="">Consulta</a>
+      </div>
+
+      <div>
+        <a href="">Legal</a>
+        <a href="">Politica de Privacidad</a>
+        <a href="">Terminos de Servicio</a>
+        <a href="">FAQ</a>
+      </div>
+
+      <div>
+        <a href="">Sobre nosostros</a>
+        <a href="">Testimonios</a>
+        <a href="">Nuestra gestión</a>
+        <a href="">Nuestra historia</a>
+        <a href="">Carrera</a>
+      </div>
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <h3><a href="https://leonidasesteban.com/" target="_blank">leonidasesteban.com</a></h3>
+  <h4><a href="https://leonidasesteban.com/proyectos" target="_blank">leonidasesteban.com/proyectos</a></h4>
+  <h5><a href="https://leonidasesteban.com/proyectos/todos" target="_blank">leonidasesteban.com/proyectos/todos</a></h5> -->
+</body>
 </html>
+
+
+
